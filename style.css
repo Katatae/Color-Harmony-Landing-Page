@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+
+p {
+    margin: 20px;
+    color: #E1E2EF;
+    text-align: center;
+}
+
+body {
+    background: #E1E2EF;
+}
+.hero{
+    color: #E1E2EF;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(5, 31, 74, 0.389), rgba(180, 151, 214, 0.389)), url(notes.JPG);
+    background-size: 141%;
+    background-position: left;
+    background-repeat: no-repeat;
+    animation: background-move 20s infinite alternate;
+}
+@keyframes background-move {
+    0% {
+        background-position: left;
+    }
+    100% {
+        background-position: right;
+    }
+}
+
+section {
+    padding: 22px, 22px;
+    margin-left: 50px; 
+    margin-right: 50px;
+    height: 20vh;
+    text-align: center;
+}
+
+
+.sec1 {
+    color: #E1E2EF;
+    padding: 30px 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 20vh;
+    background-image: linear-gradient(
+        to right, 
+        #05204A, #B497D6
+    );
+}
+button{
+    border-radius: 20px;
+    padding: 11px;
+    border: none;
+}
+
+.sec2 {
+    padding: 50px 50px;
+    margin: 11px;
+    background-image: linear-gradient(
+        to right, 
+        #05204A, #02020A;
+    );
+}
+.sec2txt {
+    color: #02020A;
+}
+
+footer{
+    background-image: linear-gradient(to right, #B497D6, #02020A )
+}
+
+
+
