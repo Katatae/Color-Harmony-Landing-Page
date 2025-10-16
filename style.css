@@ -30,7 +30,7 @@ body {
     background-size: 141%;
     background-position: left;
     background-repeat: no-repeat;
-    animation: background-move 20s infinite alternate;
+    animation: background-move 15s infinite alternate;
 }
 @keyframes background-move {
     0% {
@@ -82,6 +82,7 @@ button{
 footer{
     background-image: linear-gradient(to right, #B497D6, #02020A )
 }
+
 
 
 
